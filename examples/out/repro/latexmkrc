@@ -1,0 +1,4 @@
+# latexmkrc: the same build with latexmk
+$pdf_mode = 1;
+$bibtex_use = 2;
+$max_repeat = 6;

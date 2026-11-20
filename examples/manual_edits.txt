@@ -1,0 +1,4 @@
+sec/intro.tex	Section~\ref{sec:methods}	Section~\ref{sec:method}
+sec/method.tex	\caption{Cooling energy saving by house type.	\caption{Cooling energy saving by house type.}
+sec/method.tex	Data are stored in results_final.csv.	Data are stored in results\_final.csv.
+sec/method.tex	terraced & 14 & 12 & 3 \\	terraced & 14 & 12 \\

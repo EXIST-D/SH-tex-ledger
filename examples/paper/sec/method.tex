@@ -1,0 +1,19 @@
+\section{Method}\label{sec:method}
+Data are stored in results_final.csv. Table~\ref{tab:main} lists the houses.
+\begin{table}[h]
+\centering
+\label{tab:main}
+\caption{Cooling energy saving by house type.
+\begin{tabular}{lcc}
+\toprule
+House & Saving (\%) & Samples \\
+terraced & 14 & 12 & 3 \\
+detached & 9 & 8 \\
+\bottomrule
+\end{tabular}
+\end{table}
+The loss is minimised with
+\begin{equation}\label{eq:loss}
+ L = \sum_i (y_i - \hat y_i)^2 .
+\end{equation}
+See also \cite{varga2005}.
