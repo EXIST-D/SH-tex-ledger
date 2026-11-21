@@ -56,3 +56,7 @@ python3 scripts/tx.py build out/.work --out out [--answers answers.json]
 - 模板迁移只做正文 / 标题 / 摘要 / 关键词，不映射作者与单位；本机没有 IEEEtran 等期刊模板，只用自定义 `.cls` 测过；本机没有 Biber，`biblatex` 路径只测到“缺少 Biber 如实报错”。
 - 没有 Word / PDF 渲染对比，没有联网安装宏包。
 - 构建的字节级一致只在同一台机器、同一 TeX 版本上验证。
+
+
+## 示例文件的后缀
+平台只接受部分文件类型作为 Skill 资源，所以示例里这些文件的名字后面加了 `.txt`：`examples/out/repro/Makefile`、`examples/out/repro/build.sh`、`examples/out/repro/latexmkrc`。去掉 `.txt` 就是脚本实际读写的文件名；脚本本身的输出文件名没有变。
